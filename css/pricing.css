@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,900');
+
+/* ---  BASIC ---  */
+
+*:focus { outline: none !important;}
+
+a {
+    text-decoration: none !important;
+    color: #96abba !important;
+}
+
+body {
+    padding-top: 10em;
+	color: #7a8f9d;
+	/* font-family: 'Lato', sans-serif; */
+	font-family: 'Montserrat', sans-serif;
+    background-color: #FFF;
+}
+
+/* NAVBAR */
+
+.navbar {
+	height: auto;
+	background-color: #FFF;
+    padding-top: 20px;
+}
+
+.top { cursor: pointer; }
+
+.navbar .container-fluid { padding: 0 6%; }
+
+.navbar .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #7a8f9d;
+    text-decoration: none;
+}
+
+.navbar .nav-link:hover { color: #444 !important; }
+
+.navbar .navbar-toggler {
+    border: none;
+    cursor: pointer;
+}
+
+.navbar .navbar-toggler-icon { background-image: url('../images/menu_icon.svg'); }
+
+.nav-item.active {
+    border-radius: 20px !important;
+    padding: 0 15px !important;
+    margin: 0 10px;
+    color: #FFF;
+    background: #60a9ff;
+    background: -moz-linear-gradient(top, #60a9ff 0%, #4394f4 100%);
+    background: -webkit-linear-gradient(top, #60a9ff 0%,#4394f4 100%);
+    background: linear-gradient(to bottom, #60a9ff 0%,#4394f4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9ff', endColorstr='#4394f4',GradientType=0 );
+}
+
+.nav-item.active a {
+    color: #FFF !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.navbar .active:hover a { color: #FFF !important; }
+
+/* --- CARD --- */
+
+.container-prices { padding: 0 6%; }
+
+.ticket-card {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    background-color: #F1F3F5;
+    border-radius: 10px;
+}
+
+.ticket-card .cover {
+  position: relative;
+  margin: 15px;
+}
+
+.ticket-card .cover img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  margin-top: -30px;
+  box-shadow: 0 10px 20px -4px rgba(22, 22, 22, 0.5);
+  border-radius: 10px;
+}
+
+.ticket-card .body { padding: 5px 30px; }
